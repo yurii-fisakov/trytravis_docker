@@ -19,7 +19,7 @@ jobs:
     - name: "Integration tests"
       before_script:
         - echo "do something"
-        - true
+        - false
       script: echo "Running some complex tests"
       after_script: echo "Great, success! "
 
@@ -49,7 +49,6 @@ env:
     - secure: "N6zsMjA9WVe+JCvAeVsMRZllizSBMOJFYzRupqQyd1ATBzvriHVvyiuyglHtDI4l8n5u1pCnA+lD1RA7yOYb3gxv63+62NusF1aujdVMZPcG/PybVTW/awsiEUDVq1mKQaSzjeL/V4CkOpa0aY+IapoXD0STWubt2iue+zjVBnddHlcJwoHKBW4KFuT8IBIwU2li8WmzDIfG1/GN1thXBYmJ3LrykwRVLGTAgjCekH257P+3HLTrGFi7jtBJ20KKccguNj2NdnqQXXfygfRBlHsTfwY0XYHDC+HND1Q9HIrUWuwAZKoHgDqYTEeaj221KzguZqXhU2XCRj3uWuu8VCPeCR+zftXEX8ZdLUSN/scbzJKFWytVO/OvV26vyYo7loBN976J7twIDeijeJFw4yS3J+XM5vsto90yseHjpvtPXoFs1KY2IVwFerAELyYGodmXrJjxTQDTbqiC71/wNkjBuWmTikdTaecY6tyUSISxvCA1AUcEiZ7ENceCLkOQYP+v1aFBMAtvCPI5H6vnQ9bRCJlt6fsDrrSrWlW5BqOZ6+TNY6Zrd2FXvLrOLCwUFcAdBZFgjJwPVMUHDZ7Jpt7tW9CXZDZor2S2ZnXSuESdzKJ9fcOfFTEis3gWV7ZrZ3C8Hy6aYJFRemlihcrbzHipHyDyTg3FHrq3ipR93qY="
 # SNYK_TOKEN
     - secure: "Gq2+ADw5oFLJJb8Dr1AcKP+QTVpKGYg1TyfdZO+CUcj/ukQ7D3580n7yKDWo67G2fjsVyHTnPr1KljsGbeShyr7hUcAhZHMnzhvTbey5IC+zfP0XzIdx/CmwJ3r3wO+N1+m3VJTfmt+0e1RVTXXV66N8keTH3HxqQ7BZHSmBPOb+wy9v45w/V4jVi8NUQRClyTnFet6SF9Sdi9lf45dPNn3x0ej8Mw8E++nArZyPUrDomn9xz6t1GW00i9lUzgFKaXPIq2S6NVfP+3qNIdVoCzl32imnkULCnMjkBrttyZzCDCsGpO+1VzfqEwRvDUlj6VpX20dfL/ATBe/WBHdZUoLh7nximPk1E/0m1nOEyf5LqRhUpNEZrpb36HbSZOWCQ3XoIWv7SWfiXR+t0e1Y6noCP2Y3fQKUIy06I9kfHmIQJkWEzn26ttAfEAgNqn71eptKAKbknNrtnPE7IZJkM0mqCOOso+ohUPnPEQnjJdJhryeKnng3aaY2bipl9BmR3Fcl4d5jUrSOaaliomfuhJLlemNlo+O9yjKi4E0L7EIBpuMJ/nVWQ+PtZPFU45eBQPFfnMcrTxUYnmBWEaLUEhJL/5SmC+VbX+vE/IFCK1ygxuVrGqnJ9ZsVWJBjWfB+sNvXin4jhGIjQTVhvLwPnJbpKAX5twVcKGa0Fi3nmaA="
-
 
 services: docker
 
