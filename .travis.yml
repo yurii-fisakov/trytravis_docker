@@ -51,8 +51,7 @@ env:
     - secure: "Gq2+ADw5oFLJJb8Dr1AcKP+QTVpKGYg1TyfdZO+CUcj/ukQ7D3580n7yKDWo67G2fjsVyHTnPr1KljsGbeShyr7hUcAhZHMnzhvTbey5IC+zfP0XzIdx/CmwJ3r3wO+N1+m3VJTfmt+0e1RVTXXV66N8keTH3HxqQ7BZHSmBPOb+wy9v45w/V4jVi8NUQRClyTnFet6SF9Sdi9lf45dPNn3x0ej8Mw8E++nArZyPUrDomn9xz6t1GW00i9lUzgFKaXPIq2S6NVfP+3qNIdVoCzl32imnkULCnMjkBrttyZzCDCsGpO+1VzfqEwRvDUlj6VpX20dfL/ATBe/WBHdZUoLh7nximPk1E/0m1nOEyf5LqRhUpNEZrpb36HbSZOWCQ3XoIWv7SWfiXR+t0e1Y6noCP2Y3fQKUIy06I9kfHmIQJkWEzn26ttAfEAgNqn71eptKAKbknNrtnPE7IZJkM0mqCOOso+ohUPnPEQnjJdJhryeKnng3aaY2bipl9BmR3Fcl4d5jUrSOaaliomfuhJLlemNlo+O9yjKi4E0L7EIBpuMJ/nVWQ+PtZPFU45eBQPFfnMcrTxUYnmBWEaLUEhJL/5SmC+VbX+vE/IFCK1ygxuVrGqnJ9ZsVWJBjWfB+sNvXin4jhGIjQTVhvLwPnJbpKAX5twVcKGa0Fi3nmaA="
 
 
-services:
-  - docker
+services: docker
 
 git:
   depth: 3
